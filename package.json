@@ -1,0 +1,24 @@
+{
+  "name": "colorz",
+  "version": "1.0.0",
+  "description": "Test d’intégration pour Colorz.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanLemire/Colorz.git"
+  },
+  "author": "Lemire Tristan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanLemire/Colorz/issues"
+  },
+  "homepage": "https://github.com/TristanLemire/Colorz#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.4"
+  }
+}

@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 132px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  .header__logo {
+    margin-left: 28px;
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .header__nav {
+    .header__nav__ul{
+      display: flex;
+      li {
+        margin-right: 28px;
+      }
+    }
+  }
+}

@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/scss/style.scss" />
   </head>
   <body>
     <header>
-      <img src="./assets/img/Sollic_noire.png" alt="" />
-      <p>Etiam porta sem malesuada magna mollis euismod.</p>
+      <div class="header__logo">
+          <img src="./assets/img/Sollic_noire.png" alt="" />
+          <p class="typo__logo--header">Etiam porta sem malesuada magna mollis euismod.</p>
+      </div>
 
-      <nav>
-        <ul>
-          <li><a href="">Cras</a></li>
-          <li><a href="">Quam</a></li>
-          <li><a href="">Mattis</a></li>
-          <li><a href="">Cras</a></li>
-          <li><a href="">Etiam</a></li>
-          <li><a href="">Pharetra</a></li>
-          <li><a href="">search icon</a></li>
+      <nav class="header__nav">
+        <ul class="header__nav__ul">
+          <li><a href="" class="typo__nav">Cras</a></li>
+          <li><a href="" class="typo__nav">Quam</a></li>
+          <li><a href="" class="typo__nav">Mattis</a></li>
+          <li><a href="" class="typo__nav">Cras</a></li>
+          <li><a href="" class="typo__nav">Etiam</a></li>
+          <li><a href="" class="typo__nav">Pharetra</a></li>
+          <li><a href="" class="typo__nav">search icon</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h2>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h2>
+      <section class="hero">
+        <h2 class="typo__hero__h2">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h2>
         <a href="">Nullam Vulputate Tortor </a>
       </section>
 
@@ -139,7 +143,7 @@
     <footer>
       <div>
         <img src="./assets/img/Sollic.png" alt="" />
-        <p>Etiam porta sem malesuada magna mollis euismod.</p>
+        <p class="typo__logo--footer">Etiam porta sem malesuada magna mollis euismod.</p>
       </div>
 
       <div>

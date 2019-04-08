@@ -1,0 +1,18 @@
+.hero {
+  background: url('../img/hero_background.png') no-repeat;
+  background-size: cover;
+  height: calc(100vh - 132px);
+  margin-top: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    margin-left: 124px;
+    width: 600px;
+  }
+
+  a {
+    margin-left: 124px;
+  }
+}

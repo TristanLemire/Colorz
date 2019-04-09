@@ -29,8 +29,32 @@
 }
 
 .typo__hero__a {
-  font-family: "Roboto Bold";
+  font-family: "Roboto";
   font-size: 18px;
   color: #1c1c1d;
 }
 
+.typo__articles__h3 {
+  font-family: "Roboto Bold";
+  font-size: 11px;
+  color: #1c1c1d;
+}
+
+.typo__articles__h2 {
+  font-family: "Roboto Bold";
+  font-size: 24px;
+  color: #1c1c1d;
+}
+
+.typo__articles__date {
+  font-family: "Roboto";
+  font-size: 11px;
+  color: #1c1c1d;
+}
+
+.typo__articles__p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #5f5f5F;
+  line-height: calc(14px*1.5);
+}

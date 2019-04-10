@@ -45,6 +45,10 @@ header {
   .header__logo {
     width: 100px;
     text-align: center;
+    
+    p{
+      margin-top: 6px;
+    }
   }
 
   .header__nav {
@@ -56,5 +60,41 @@ header {
       height: 100vh;
       left: -50%;
     }
+  }
+
+  @media (min-width: 800px) {
+    justify-content: space-between;
+    .fas.fa-bars {
+      display: none;
+    }
+
+    i {
+      font-size: 16px;
+      margin-right: 40px;
+    }
+
+    .header__logo {
+      margin-left: 40px;
+      width: 200px;
+      text-align: left;
+    }
+
+    .header__nav {
+      display: flex;
+      align-items: center;
+      .header__nav__ul {
+        position: static;
+        top: auto;
+        width: auto;
+        height: auto;
+        left: auto;
+        display: flex;
+
+        li {
+          margin-right: 28px;
+        }
+      }
+    }
+
   }
 }

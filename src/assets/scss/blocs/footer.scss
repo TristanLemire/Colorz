@@ -39,4 +39,19 @@ footer {
     width: 80%;
     margin-bottom: 70px;
   }
+
+  @media (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+    .footer__menus {
+      .footer__menus--group {
+        display: flex;
+        width: 100%;
+        margin-right: 25px;
+      }
+    }
+  }
 }

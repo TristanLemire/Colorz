@@ -79,6 +79,13 @@
   line-height: calc(14px*1.5);
 }
 
-.footer__copyright{
-  
+@media (min-width: 800px) {
+
+  .typo__hero__h2 {
+    font-size: 65px;
+  }
+
+  .typo__hero__span {
+    font-size: 65px;
+  }
 }

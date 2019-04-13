@@ -1,86 +1,62 @@
+@mixin typo($font, $size, $color) {
+  font-family: $font;
+  font-size: $size;
+  color: $color;
+}
+
 .typo__logo--header {
-  font-family: Roboto;
-  font-size: 12px;
-  color: #777777;
+  @include typo('Roboto',12px,#777777);
 }
 
 .typo__nav {
-  font-family: Roboto;
-  font-size: 16px;
-  color: #1c1c1d;
-}
-
-.typo__logo--footer {
-  font-family: Roboto;
-  font-size: 12px;
-  color: #b3b3b3;
+  @include typo('Roboto',16px,#1c1c1d);
 }
 
 .typo__hero__h2 {
-  font-family: "Roboto Bold";
-  font-size: 40px;
-  color: white;
+  @include typo('Roboto Bold',40px,white);
+  text-shadow: -1px 1px 13px rgba(0,0,0,0.58);
 }
 
 .typo__hero__span {
-  font-family: "Roboto Light";
-  font-size: 40px;
-  color: white;
+  @include typo('Roboto Light',40px,white);
 }
 
 .typo__hero__a {
-  font-family: "Roboto";
-  font-size: 18px;
-  color: #1c1c1d;
+  @include typo('Roboto',18px,#1c1c1d);
 }
 
 .typo__articles__h3 {
-  font-family: "Roboto Bold";
-  font-size: 11px;
-  color: #1c1c1d;
+  @include typo('Roboto Bold',11px,#1c1c1d);
 }
 
 .typo__articles__h2 {
-  font-family: "Roboto Bold";
-  font-size: 24px;
-  color: #1c1c1d;
+  @include typo('Roboto Bold',24px,#1c1c1d);
 }
 
 .typo__articles__date {
-  font-family: "Roboto";
-  font-size: 11px;
-  color: #1c1c1d;
+  @include typo('Roboto',11px,#1c1c1d);
 }
 
 .typo__articles__p {
-  font-family: "Roboto";
-  font-size: 14px;
-  color: #5f5f5F;
-  line-height: calc(14px*1.5);
+  @include typo('Roboto',14px,#5f5f5f);
+  line-height: calc(14px * 1.5);
 }
 
 .typo__logo--footer {
-  font-family: "Roboto";
-  font-size: 16px;
-  color: #b3b3b3;
-  line-height: calc(12px*1.5);
+  @include typo('Roboto',16px,#b3b3b3);
+  line-height: calc(12px * 2);
 }
 
 .typo__footer__h2 {
-  font-family: "Roboto Medium";
-  font-size: 18px;
-  color: white;
+  @include typo('Roboto Medium',18px,white);
 }
 
 .typo__footer__p {
-  font-family: "Roboto";
-  font-size: 14px;
-  color: white;
-  line-height: calc(14px*1.5);
+  @include typo('Roboto',14px,white);
+  line-height: calc(14px * 1.5);
 }
 
 @media (min-width: 800px) {
-
   .typo__hero__h2 {
     font-size: 65px;
   }

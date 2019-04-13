@@ -1,57 +1,81 @@
+//--------Start sass for mobile--------//
 footer {
+  margin-top: 20px;
   background-color: #1c1c1d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 
-  .footer__logo {
-    text-align: center;
-    width: 50%;
-
-    img {
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-  }
-
-  .footer__menus {
-    width: 80%;
+  .footer {
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     border-bottom: solid 1px #6c6c6c;
-    padding-bottom: 40px;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
+    width: 80%;
 
-    .footer__menus--group {
-      width: 35%;
+    .footer__logo {
+      margin-top: 50px;
+      text-align: center;
+      width: 60%;
 
-      .footer__menu {
-        margin-top: 40px;
-        h2 {
-          margin-bottom: 28px;
+      img {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .footer__menus {
+      display: flex;
+      justify-content: space-between;
+
+      .footer__menus--group {
+        width: 40%;
+
+        .footer__menu {
+          margin-top: 40px;
+          h2 {
+            margin-bottom: 28px;
+          }
         }
       }
     }
   }
-
   .footer__copyright {
     width: 80%;
     margin-bottom: 70px;
-  }
-
-  @media (min-width: 800px) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-top: 20px;
+  }
+//--------End sass for mobile--------//
 
-    .footer__menus {
-      .footer__menus--group {
-        display: flex;
-        width: 100%;
-        margin-right: 25px;
+//--------Start sass for desktop--------//
+  @media (min-width: 1100px) {
+    .footer {
+      flex-direction: row;
+      justify-content: center;
+      width: 95%;
+
+      .footer__logo {
+        width: 75%;
+        padding: 0 75px 0 75px;
+      }
+
+      .footer__menus {
+        .footer__menus--group {
+          display: flex;
+          width: 50%;
+          justify-content: space-around;
+
+          .footer__menu {
+            margin-right: 75px;
+          }
+        }
       }
     }
+    .footer__copyright {
+      width: 95%;
+    }
   }
+//--------End sass for desktop--------//
 }
